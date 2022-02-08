@@ -1,0 +1,10 @@
+.resla-button {
+  background-color: #fff;
+  color: #333;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: 0px 0px 15px 4px #ccc;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
