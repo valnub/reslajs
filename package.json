@@ -2,7 +2,7 @@
   "name": "reslajs",
   "version": "0.0.1",
   "main": "dist/reslajs.es.js",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^17.0.2"
   },
   "type": "module",
