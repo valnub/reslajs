@@ -30,9 +30,9 @@ npm manifest:
   {
     "name": "rollup-starter-lib",
     "version": "1.0.0",
-    "main": "dist/resla.cjs.js",
-    "module": "dist/resla.esm.js",
-    "browser": "dist/resla.umd.js",
+    "main": "dist/reslajs.cjs.js",
+    "module": "dist/reslajs.esm.js",
+    "browser": "dist/reslajs.umd.js",
     "dependencies": {
       "react": "^17.0.2"
     },

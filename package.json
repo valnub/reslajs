@@ -1,7 +1,7 @@
 {
-  "name": "resla",
+  "name": "reslajs",
   "version": "0.0.1",
-  "main": "dist/resla.es.js",
+  "main": "dist/reslajs.es.js",
   "dependencies": {
     "react": "^17.0.2"
   },

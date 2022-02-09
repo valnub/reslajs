@@ -1,5 +1,5 @@
 import './App.css';
-import { Button } from 'resla';
+import { Button } from 'reslajs';
 
 function App() {
   return <Button className="buttontest">Open trunk</Button>;

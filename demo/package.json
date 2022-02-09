@@ -6,13 +6,13 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
-    "resla": "file:./.."
+    "reslajs": "file:./.."
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "show": "cd .. && yarn run build && cd demo && cp -Rf ../dist node_modules/resla && cp -f ../package.json node_modules/resla && rm -Rf node_modules/.cache && yarn start"
+    "show": "cd .. && yarn run build && cd demo && cp -Rf ../dist node_modules/reslajs && cp -f ../package.json node_modules/reslajs && rm -Rf node_modules/.cache && yarn start"
   },
   "eslintConfig": {
     "extends": [

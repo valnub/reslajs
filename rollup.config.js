@@ -9,7 +9,7 @@ export default [
   {
     input: 'src/index.js',
     output: {
-      name: 'resla',
+      name: 'reslajs',
       file: pkg.main,
       format: 'es',
       globals: {
