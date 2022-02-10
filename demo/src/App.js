@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-import { Button, Toggle } from 'reslajs';
+import { Button, Toggle, ButtonGrid, ButtonGridItem } from 'reslajs';
 
 function App() {
   const [checked, setChecked] = useState(false);
@@ -27,6 +27,23 @@ function App() {
         checked={checked}
         style={{ marginTop: '100px', marginLeft: '100px' }}
       />
+      <ButtonGrid
+        style={{
+          marginTop: '100px',
+          width: '80%',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+        }}
+      >
+        <ButtonGridItem>Lights</ButtonGridItem>
+        <ButtonGridItem>Heater</ButtonGridItem>
+        <ButtonGridItem>Radio</ButtonGridItem>
+        <ButtonGridItem>Spotify</ButtonGridItem>
+        <ButtonGridItem>Massage</ButtonGridItem>
+        <ButtonGridItem>Camera</ButtonGridItem>
+        <ButtonGridItem>Sentry mode</ButtonGridItem>
+        <ButtonGridItem>Fan</ButtonGridItem>
+      </ButtonGrid>
     </>
   );
 }
