@@ -1,9 +1,10 @@
 import './App.css';
 import React, { useState } from 'react';
-import { Button, Toggle, ButtonGrid, ButtonGridItem } from 'reslajs';
+import { Button, Toggle, ButtonGrid, ButtonGridItem, Slider } from 'reslajs';
 
 function App() {
   const [checked, setChecked] = useState(false);
+  const [sliderValue, setSliderValue] = useState(0);
   return (
     <>
       <Button
@@ -14,6 +15,7 @@ function App() {
       >
         Open trunk
       </Button>
+
       <Toggle
         leftText="Off"
         rightText="On"
@@ -27,6 +29,18 @@ function App() {
         checked={checked}
         style={{ marginTop: '100px', marginLeft: '100px' }}
       />
+
+      <Slider
+        style={{ width: '300px', marginLeft: '100px', marginTop: '100px' }}
+        value={sliderValue}
+        onChange={(newValue) => {
+          setSliderValue(newValue);
+        }}
+        type="percent"
+      >
+        {/* <img src="logo192.png" alt="" /> */}
+      </Slider>
+
       <ButtonGrid
         style={{
           marginTop: '100px',

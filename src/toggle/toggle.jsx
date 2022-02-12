@@ -46,6 +46,11 @@ export default function Toggle(props) {
         className="reslajs-toggle-checkbox"
         type="checkbox"
         checked={checked}
+        onChange={() => {
+          console.warn(
+            'ReslaJS: Input value was modified directly. This should not happen.'
+          );
+        }}
       ></input>
     </div>
   );
